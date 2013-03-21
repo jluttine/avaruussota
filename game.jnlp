@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+"
+  codebase="http://users.tkk.fi/~jluttine/t106213/"
+  href="game.jnlp"
+>
+<information>
+  <title>Avaruussota 1.0</title>
+  <vendor>Jaakko Luttinen</vendor>
+  <homepage href="http://users.tkk.fi/~jluttine" />
+  <description>T-106.213 Projekti: Avaruussota-peli</description>
+  <icon href="icon.gif" />
+</information>
+
+<offline-allowed/>
+
+<security>
+     <all-permissions/>
+</security>
+
+<resources>
+  <j2se version="1.4+" />
+  <jar href="projekti.jar"/>
+</resources>
+
+<application-desc main-class="IkkunaPelinAsetukset" />
+
+</jnlp>
